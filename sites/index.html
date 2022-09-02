@@ -1,0 +1,1395 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/normalize.css" rel="stylesheet" type="text/css">
+  <link href="css/webflow.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://s3.amazonaws.com/assets.b42.com.br/player/mediaelementplayer.css">
+  <link rel="stylesheet" href="https://s3.amazonaws.com/assets.b42.com.br/player/plugins/speed/speed.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link  rel="stylesheet"  href="/css/estilo.css" >
+  <title>site</title>
+
+</head>
+
+<body data-bs-spy="scroll"> <!-- ativa cor quando passa no tópico -->
+
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+      
+  <main>
+    </div>
+    <!-- drop-->                           <!-- flex-column alinhar ao centro menu e texto dentro da navbar-->
+    <div class="row">
+      <div class="col">
+        <nav class="navbar   flex-xs-column   fixed-top  navbar-dark text-white" style="background-image:  linear-gradient(267.92deg, rgba(78, 105, 48, 0.74) 0%, rgba(54, 58, 9, 0.9) 51.26%, rgba(217, 149, 40, 0.73) 101.07%),  url(/sites/img/banner.svg);" class="container-fluid mb-5 mt-5 ; box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.2);" 
+                  aria-label="Dark offcanvas navbar">
+          <img class=" img-fluid  img-start" src="/sites/img/testelogo.svg" alt="logo unicv" width="69" height="69">
+          <a   style="font-size: 2em;" class="navbar-brand text-center" href="#">Avaliação e Precificação </a>
+          <button class="  navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling"
+            aria-controls="offcanvasScrolling">
+            <span class="navbar-toggler-icon "></span>
+          </button>
+          <div class="offcanvas offcanvas-end text-white" data-bs-scroll="true" data-bs-backdrop="false"
+            style="background-color:#3d5324; box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.5);" tabindex="-1" id="offcanvasScrolling"
+            aria-labelledby="offcanvasScrollingLA">
+            <div   style="box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.2);"  class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasScrolling"> AVALIAÇÃO E PRECIFICAÇÃO</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav flex-grow-1 pe-3">
+                <li class="nav-item">
+                <li class="nav-item dropdown">
+                  <a class="nav-link  dropdown-toggle" href="#plano" id="offcanvasNavbarDarkDropdown" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    Plano de estudos e entrodução  teste
+                  </a>
+                  
+                  
+              
+                  <ul style="background-color:#D99528" class="dropdown-menu" aria-labelledby="offcanvasNavbarDarkDropdown">
+                    <li><a   style="color:rgb(10, 34, 2)" class="dropdown-item " href="#planodeestudo">Plano de estudo</a></li>
+                   
+                    <hr class="dropdown-divider bg-Success">
+                    <li><a class="dropdown-item " href="#objetivodeaprendizagem">Objetido de aprendizagem</a></li></ul>
+                </li>
+        <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle mb-2 " href="#TERMINOLOGIAS" id="offcanvasNavbarDarkDropdown" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    1 - Terminologias e classificação <br> da contabilidade de custos
+                  </a>
+                  <ul   style="background-color:#D99528" class="dropdown-menu" aria-labelledby="offcanvasNavbarDarkDropdown">
+                    <li><a class="dropdown-item" href="#gastos">Gastos</a></li>
+                    <hr class="dropdown-divider">
+                  <li><a class="dropdown-item" href="#investimentos">Investimentos</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#Custo">Custo</a></li>
+                    <hr class="dropdown-divider">
+
+                    <li><a class="dropdown-item" href="#dispesa">Dispesa</a></li>
+                    <hr class="dropdown-divider">
+
+                    <li><a class="dropdown-item" href="#Desembolso">Desembolso</a></li>
+                    <hr class="dropdown-divider">
+
+                    <li><a class="dropdown-item" href="#perda">Perda</a></li>
+                    <hr class="dropdown-divider">
+
+                    <li><a class="dropdown-item" href="#disperdicio">Disperdício</a></li>
+                    <hr class="dropdown-divider">
+
+                    <li><a class="dropdown-item" href="#custosdiretos">Custos Diretos</a></li>
+                    <hr class="dropdown-divider">
+
+                    <li><a class="dropdown-item" href="#custosindiretos">Custos Indiretos</a></li>
+                    <hr class="dropdown-divider">
+
+                    <li><a class="dropdown-item" href="#custosfixos">Custos fixos</a></li>
+                    <hr class="dropdown-divider">
+
+                    <li><a class="dropdown-item" href="#custossemifixos">Custos semifixos</a></li>
+                    <hr class="dropdown-divider">
+
+                    <li><a class="dropdown-item" href="#custovariaveis">Custos variáveis</a></li>
+                    <hr class="dropdown-divider">
+
+                    <li><a class="dropdown-item" href="#custosemivariaveis">Custos semivariáveis</a></li>
+                    <hr class="dropdown-divider">
+
+                    <li><a class="dropdown-item" href="#dispesasdiretas">Dispesas diretas</a></li>
+                    <hr class="dropdown-divider">
+
+                    <li><a class="dropdown-item" href="#dispesasindiretas">Dispesas diretas</a></li>
+                    <hr class="dropdown-divider">
+
+                    <li><a class="dropdown-item" href="#dispesasfixas">Dispesas fixas</a></li>
+                    <hr class="dropdown-divider">
+
+                    <li><a class="dropdown-item" href="#dispesasvariaveis">Dispesas variáveis</a></li>
+                    <hr class="dropdown-divider">
+
+                    <li><a class="dropdown-item" href="#materiaisdiretos">materiaisdiretos</a></li>
+                    <hr class="dropdown-divider">
+
+                  </ul>
+                </li>
+              
+
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle mb-2 "  href="#TERMINOLOGIAS" id="offcanvasNavbarDarkDropdown" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  2 - Custeio por absorção
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDarkDropdown">
+                  <li><a class="dropdown-item" href="#intro-custeio">Introdução</a></li>
+                  <hr class="dropdown-divider">
+                  <li><a class="dropdown-item" href="#intro-custeio-1">Custeio por absorção de empresas
+                    <br>  prestadoras de serviços</a></li>
+                  <hr class="dropdown-divider">
+                  <li><a class="dropdown-item" href="#intro-custeio-2">Custeio por absorção 
+                 <br> de empresas prestadoras de serviços</a></li>
+                  <hr class="dropdown-divider">
+                  <li><a class="dropdown-item" href="#quadro-1">Relação de Gastos das Indústrias Ltda</a></li>
+                  <hr class="dropdown-divider">
+                  <li><a class="dropdown-item" href="#quadro-2">Relação de Custos das Indústrias Ltda </a></li>
+                  <hr class="dropdown-divider">
+                </ul>
+                </li>
+              </li>
+            
+              <nav class="flex-column">
+                
+                <a class="nav-link mb-2 " aria-current="page" href="#videoaula">VIDEO AULA</a>
+                <hr class="dropdown-divider">
+
+              </nav>
+              </li> 
+              <li class="nav-item  mb-2  ">
+                <a class="nav-link" href="#consideracoesfinais">CONSIDERAÇÕES FINAIS</a>
+              </li>
+            </ul>
+            </ul>
+            
+            </div>
+          </div>
+      </div>
+      </nav>
+
+    </div>
+
+    <!-- banner unidade 1 -->
+    </div>
+  </main>
+    
+<div class="container-fluid mt-5 my-5"> 
+  <div class="row mt-5"> 
+    <div class="col mt-5"> 
+   <p class="  w-100 p-3  h2 display-5 text-center"style="color:#4E6930 ;">
+    PROFESSORES</p>
+  </div>
+  </div>
+         
+  </div>
+
+
+    <!-- professores inicio -->
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col" >
+
+        <div class="text-center ps-2">
+          <img style="border: 10px solid #4E6930;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.3);" src="/sites/img/Professor Me. Matheus Henrique Delmonaco.jpg"
+            class="bd-placeholder-img rounded-circle " width="140" height="140" xmlns="http://www.w3.org/2000/svg"
+            role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+          <title>Placeholder</title>
+          <rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777"
+            dy=".3em"></text></img>
+
+          <h2 class="fw-normal m-5">Professor Me. Matheus Henrique Delmonaco</h2>
+          <p class="text-break"   style="text-align: justify; font-size: 1em;">Mestre pelo Programa de Pós - Graduação em Ciências
+            Contábeis da Universidade Estadual de Maringá (PCO/UEM) - Linha de pesquisa:
+            contabilidade para usuários externos. Graduado em Ciências Contábeis
+            pela Universidade Estadual de Maringá (UEM). <br><br> Participou como bolsista em projeto de pesquisa
+            voltado
+            à Iniciação Científica para Ensino Médio (PIBIC - EM), na Universidade Estadual de Maringá (UEM).
+            <br><br>
+            Atuou como Coordenador dos Cursos de Bacharelado em Ciências Contábeis e Ciências Econômicas, Tecnologia
+            em Gestão de Recursos Humanos; Gestão Comercial; Gestão Financeira; Gestão Pública; Marketing; Negócios
+            Imobiliários; e Serviços Jurídicos - EAD, do Centro Universitário Cidade Verde - UniFCV. Atualmente é
+            Gerente de Operações - EAD no Centro Universitário Cidade Verde.
+            <a href="http://lattes.cnpq.br/2569885539130860>"  class="link-success"> http://lattes.cnpq.br/2569885539130860></a>
+          </p>
+        </div>
+      </div>
+
+<div class="col">
+        
+<div class="text-center ps-2">
+  <img style="border: 10px solid #4E6930; box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.3);" src="/sites/img/Professor Me. LAIS.png"
+    class="bd-placeholder-img rounded-circle " width="140" height="140" xmlns="http://www.w3.org/2000/svg"
+    role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+          <title>Placeholder</title>
+          <rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777"
+            dy=".3em"></text></img>
+          <h2 class="fw-normal m-5">Professora Esp. Lais Nascimento Gomes</h2>
+          <p style="text-align: justify; font-size: 1em;">Bacharel em Administração pela Universidade Centro de
+            Ensino Superior de Maringá (UniCesumar).
+            Bacharel em Ciências Contábeis pela Universidade Centro de Ensino Superior de Maringá (UniCesumar).
+            <br><br>
+            MBA em Gestão de Recursos Humanos pelo Centro Universitário Cidade Verde (UniFCV).
+            Especialização em Tecnologias Aplicadas ao Ensino à Distância pelo Centro Universitário Cidade Verde
+            (UniFCV).<br><br>
+            Especialização (pós graduando) em Docência no Ensino Superior: Tecnologias Educacionais e Inovação
+            (UniCesumar). <br><br>
+            Tutora Educacional em Instituições de Ensino da cidade de Maringá. Professora conteudista na área da
+            Gestão (UniFCV/UniFATECIE).
+            <a   href="http://lattes.cnpq.br/9948545360742282"  class="link-success"> http://lattes.cnpq.br/9948545360742282</a>
+          </p>
+
+        </div>
+
+              </div>
+    </div>
+
+  </div>
+       <!-- professores final -->
+
+              <!-- audiobook -->
+
+           <div class=" container-fluid px-4 mt-5"> 
+           <div  style="text-align:center; color: #4E6930;">
+              <p class="fs-2"><strong> AUDIOBOOK </strong> </p>
+
+              <lottie-player class="p-3" src="/sites/lotties/microfone.json"
+                 background="transparent" speed="1" style="width: 100; height: 100px;" loop autoplay>
+              </lottie-player>
+
+              <audio class="p-2 mt-5"   controls>
+                <source src="/sites/audio/Avaliação e Precificação - Apresentação.mp3"
+                  type="audio/mp3">
+              </audio>
+            </div>
+
+          </div>
+                        <!-- audiobook -->
+
+
+<!-- banner unidade 1 -->
+<section class="">
+  <div style="background-image:  linear-gradient(267.92deg, rgba(78, 105, 48, 0.74) 0%, rgba(54, 58, 9, 0.9) 51.26%, rgba(217, 149, 40, 0.73) 101.07%),  url(/sites/img/banner.svg);" class="container-fluid mb-5 mt-5 " >
+
+    <div class="row">
+  
+      <div class="col-2">
+        <img src="/sites/img/logounicv.svg"  width="150px" class="img-fluid float-lg-start"  >
+  
+      </div>
+      <div class="col-10">
+        <div class=" container">
+  
+        <p style="padding: 22px 0;" class="text-center text-light h1 align-middle display-3">
+          UNIDADE I
+        </p>
+      </div>
+  
+      </div>
+  
+  
+    </div> 
+  </div>
+  
+  </div>
+     </section>
+  
+<!-- banner unidade 1 -->  
+
+
+<section>
+
+  <div class="container text-center mt-5" ata-bs-smooth-scroll="true" tabindex="0" data-bs-spy="scroll" data-bs-target="#navbar-example3"
+  id="planodeestudo">
+<div class="row ms-5 mt-5">
+  <div class="col ">
+  <p  style="font-size: 3em; color: #4E6930"  class="fs-2 ">
+    PLANO DE ESTUDO
+  </p>
+
+  </div>
+  
+
+</div>
+  </div>
+</section>
+
+ <!-- conteudo  -->
+
+    
+
+<div   data-bs-smooth-scroll="true" tabindex="0" data-bs-spy="scroll" data-bs-target="#navbar-example3"
+id="plano" class="mt-5  container" style="text-align:justify;
+font-size: 1.5em;">
+
+<ul class="list-group ms-5">
+<a style="color: #4E6930">
+<img  src="/sites/img/icon.svg" width="15px" >
+Terminologias e classificações da contabilidade de custos;
+</a> <br>
+</ul>
+<ul class="list-group list-group-flush ms-5">
+  <a style="color: #4E6930"> 
+  <img src="/sites/img/icon.svg" width="15px" >
+  Terminologias e classificações da contabilidade de custos;
+  </a> <br>
+  </ul>
+  <ul class="list-group list-group-flush ms-5">
+    <a style="color: #4E6930">
+    <img src="/sites/img/icon.svg" width="15px" >
+    Terminologias e classificações da contabilidade de custos;
+    </a> <br>
+    </ul>
+    <ul class="list-group list-group-flush ms-5">
+      <a style="color: #4E6930">
+      <img src="/sites/img/icon.svg" width="15px" >
+      Terminologias e classificações da contabilidade de custos;
+      </a> <br>
+      </ul>
+      <ul class="list-group list-group-flush ms-5">
+        <a style="color: #4E6930">
+        <img src="/sites/img/icon.svg" width="15px" >
+        Terminologias e classificações da contabilidade de custos;
+        </a> <br> 
+        </ul>
+
+
+      
+                    
+</div>
+
+
+<section>
+    
+  <div data-bs-smooth-scroll="true" tabindex="0" data-bs-spy="scroll" data-bs-target="#navbar-example3"
+  id="objetivodeaprendizagem" class="mt-5  container">
+<div class="row  mt-5">
+  <div class="col">
+  <p  style="font-size: 3em; color: #4E6930"  class=" my-5 text-center display-1 fs-2 ">
+    OBJETIVOS DE APRENDIZAGEM </p>
+
+  </div>
+  
+
+</div>
+  </div>
+
+<div class="container">
+
+<div   style="font-size: 1.5em;" class="row">
+<div class="col"> 
+  <ul class="list-group">
+    <a style="color: #4E6930">
+    <img  src="/sites/img/icon.svg" width="15px" >
+    Entender as terminologias e classificações da contabilidade de custos;
+    </a> <br>
+    </ul>
+    <ul class="list-group list-group-flush">
+      <a style="color: #4E6930"> 
+      <img src="/sites/img/icon.svg" width="15px" >
+      Conceituar o tipos de custeios;
+      </a> <br>
+      </ul>
+      
+
+</div>
+</div>
+
+          </div>   
+        </section>
+
+
+<section class="container-fluid mb-5 p-5"> 
+        <div data-bs-smooth-scroll="true" tabindex="0" data-bs-spy="scroll" data-bs-target="#navbar-example3"
+        id="plano" class="mt-5  container">
+      <div class="row ms-5 mt-5">
+        <div class="col">
+        <p  style="color: #4E6930"  class=" container text-center display-2 fs-2 ">
+          INTRODUÇAO </p>
+      
+        </div>
+        
+      
+      </div>
+        </div>
+
+
+            <div data-bs-smooth-scroll="true" tabindex="0" data-bs-spy="scroll" data-bs-target="#navbar-example3"
+              id="#item-1-2" class=" container mt-5 lh-base"></div>
+              <h5 style="color: #4E6930;text-align: justify;" class="  text-break container text-start my-5  display-2 fs-2 ">OBJETIVOS DE APRENDIZAGEM </h5>
+              <p style="text-align: justify;" class="px-4 fs-5">
+                Caro (a) aluno (a) seja bem-vindo (a) à Unidade I da disciplina de Avaliação e Precificação. 
+                Nesta unidade abordaremos as terminologias e conceitos que estão ligadas a contabilidade custos, 
+                nas quais são importantes para avaliação e precificação dos produtos e serviços.
+              </p>
+              <p style="text-align: justify;" class="px-4 fs-5 ">Entenderemos algumas terminologias básicas e importantes utilizadas pela contabilidade e contabilidade de custos.
+                As informações geradas pela contabilidade de custos utilizam algumas terminologias como: gasto, desembolso, investimento, custo, despesa, perda e desperdícios, mão de obra, material direto e indireto, custos fixos, variáveis, semivariáveis, diretos e indiretos.
+                Assim, necessita-se um entendimento por parte dos usuários destas expressões, dessa maneira vamos explicar essas terminologias. 
+              </p>
+              <p style="text-align: justify;" class="px-4 fs-5 "  >Mais adiante, conceituaremos os tipos de custeios, neste momento apresentaremos o custeio por absorção, custeio direto ou variável e o custeio ABC.
+              </p>
+              <p style="text-align: justify;" class="px-4 fs-5">Veremos que cada tipo de custeio tem suas particularidades, e devem ser usadas de maneira que gerem informações fidedignas para tomada de decisões.
+              </p>
+              <p style="text-align: justify;" class="px-4 fs-5">Espero que estes textos colaborem para a sua melhor compreensão sobre o tema de nossa primeira unidade.
+              </p>
+              <p style="color: #4E6930" class="  container text-end my-5 display-5 fs-4 " > Bons Estudos...</p>
+
+              <div class="container-fluid text-center">
+                <div class="row">
+                  <div class="col">
+                    <p style="color: #4E6930" class="  container text-decoration-underline   my-5 fw-semibold fs-4 "  >
+                      1 - TERMINOLOGIAS E CLASSIFICAÇÕES DA CONTABILIDADE DE CUSTOS  </p>
+
+                  </div>
+
+                </div>
+
+
+              </div>
+              </div>
+
+            </section>
+
+ <section class="px-2" > <div data-bs-smooth-scroll="true" tabindex="0" data-bs-spy="scroll" data-bs-target="#navbar-example3"
+            id="gastos" class=" container-fluid mt-5 lh-base">
+              <div class="row">
+              <div class="col-12"> 
+                <h4 style="color: #4E6930"  class=" container m-3 p-3  fw-semi-bold display-2 fs-2 "> 
+                  <img  src="/sites/img/icon.svg" width="30px">
+                  GASTOS </h4>
+                <p style="text-align: justify;" class="px-4 fs-5 ">Gasto é todo o sacrifício financeiro para se obter um bem ou serviço para a entidade.
+                   Gasto implica em desembolso. <br>
+                </p>
+                <p style="text-align: justify;" class="px-4 fs-5 "> De acordo com Martins (2018) o gasto é quando existe um sacrifício financeiro por parte das organizações,
+                   assim a compra de um produto ou serviço qualquer, que gere um desembolso financeiro para a entidade, 
+                   isto deve ser representado por entrega ou promessa de entrega de ativos. <br><br>
+                  <p style="text-align: justify;" class="px-4 fs-5 " > Ainda segundo Martins (2018, p.25) “O gasto só existe no ato da passagem para a propriedade da empresa do bem ou serviço, 
+                  ou seja, quando existe o reconhecimento contábil da dívida assumida ou da redução do ativo dado em pagamento.” </p> 
+                </p> <br>
+                <p style="text-align: justify;" class="px-4 fs-5 ">Para Megliorini (2012) o gasto corresponde aos compromissos financeiros que a empresa assume para a aquisição de recursos que serão consumidos no ambiente fabril, para a revenda de produtos ou poderão ser consumidos na área administrativa ou comercial da empresa.
+                </p><br>
+                <p style="text-align: justify;" class="px-4 fs-5 "> Diante do exposto, conclui-se que gasto é o sacrifício feito à vista ou a prazo para a obtenção de bens ou serviços, independentemente de sua destinação dentro da empresa. Ademais, o gasto sempre implica em desembolso. Os gastos podem ser investimentos, custos ou despesas.
+                </p><br>
+                <p style="text-align: justify;" class="px-4 fs-5 ">Aperiam veniam fugiat a. Corporis, maxime harum assumenda exercitationem delectus quos ducimus, quo
+                  quaerat ad libero atque obcaecati quasi eligendi dolore expedita, velit eius vitae non sint. Quo, quidem
+                  laboriosam!</p><br>
+                <p style="text-align: justify;" class="px-4 fs-5 " >Earum dolores quaerat harum eum enim ullam praesentium provident quas error mollitia veritatis suscipit
+                  beatae id, ipsum voluptatibus repellat odit cum? Repudiandae, corrupti illum non eius perferendis odit
+                  sunt aperiam?</p><br>
+                <p style="text-align: justify;" class="px-4 fs-5 ">Soluta cum suscipit labore, ducimus dolorum dolor earum consequatur fugit molestias eligendi qui
+                  doloribus ab consequuntur provident quaerat quo autem sunt aperiam. Distinctio, sint error. Dolorem
+                  velit accusamus rerum atque.</p><br>
+                <p style="text-align: justify;" class="px-4 fs-5 ">Mollitia delectus eos maiores veniam dolores at ipsa molestiae adipisci, animi deserunt minima
+                  voluptatum eum voluptas doloremque asperiores quisquam, architecto a sapiente. Esse, consequatur minus?
+                  Magnam aperiam accusamus deleniti aliquam!</p><br>
+                <p style="text-align: justify;" class="px-4 fs-5 " >Alias aperiam commodi doloribus numquam repellat. Aspernatur ipsa tempore atque natus ea nulla modi
+                  harum eum nihil minima sequi nisi non expedita ut dolore recusandae itaque, sunt autem, enim ratione?
+                </p><br>
+                <p  style="text-align: justify;" class="px-4 fs-5 " >Sunt pariatur deleniti vitae. Consequuntur quo deserunt voluptates, animi et enim totam sunt tempora
+                  voluptatibus ducimus minus veritatis reprehenderit officia distinctio impedit at tenetur repellat
+                  placeat autem dicta perferendis tempore.</p><br>
+  
+              </div>
+
+            </div>
+
+          </div>
+          </section>
+
+          <section class="px-2" > <div data-bs-smooth-scroll="true" tabindex="0" data-bs-spy="scroll" data-bs-target="#navbar-example3"
+            id="investimentos" class=" container-fluid mt-5 lh-base">
+              <div class="row">
+              <div class="col-12"> 
+                <h4 style="color: #4E6930"  class=" container m-3 p-3  fw-semi-bold display-2 fs-2 "> 
+                  <img  src="/sites/img/icon.svg" width="30px">  
+                  INVESTIMENTOS</h4>
+                <p style="text-align: justify;" class="px-4 fs-5 " >Investimentos são gastos com bens destinados ao uso pela entidade com caráter permanente,
+                   ou seja, que serão utilizados na produção de outros bens ou serviços, 
+                   ativados em função de sua vida útil.
+                  <br>
+                </p>
+                <p style="text-align: justify;" class="px-4 fs-5 "> Bornia (2010) define o investimento como o valor dos insumos adquiridos pela empresa
+                não utilizados no período, mas que poderão ser empregados em períodos futuros.
+                  <br><br>
+                  Ainda segundo Martins (2018, p.25) “O gasto só existe no ato da passagem para a propriedade da empresa do 
+                  bem ou serviço, 
+                  ou seja, quando existe o reconhecimento contábil da dívida assumida ou da redução do ativo dado em pagamento.”
+                </p> <br>
+                <div class="container">
+                  <div class="row justify-content-end">
+                    <div class="col-8 ">
+                      <p style="text-align: justify;" class="px-4 fs-5 "> Segundo Martins (2018, p. 25), investimento é o: <br><br>  
+                        Gasto ativado em função de sua vida útil ou de benefícios atribuíveis a futuro(s) período(s). Todos os sacrifícios 
+                        havidos pela aquisição de bens ou serviços (gastos) que são “estocados” nos Ativos da empresa para baixa ou amortização 
+                        quando da sua venda, de seu consumo, 
+                        de seu desaparecimento ou de sua desvalorização são especificamente chamados de investimentos </p> <br><br>
+                    </div>
+
+                  </div>
+                
+                </div>
+                <p  style="text-align: justify;" class="px-4 fs-5 "> Portanto, investimento é a aplicação de recursos para a obtenção de bens para a 
+                  entidade que possam vir a gerar lucro durante sua atividade. </p> 
+              </div>
+
+            </div>
+
+          </div>
+
+          <section class="px-2"> <div data-bs-smooth-scroll="true" tabindex="0" data-bs-spy="scroll" data-bs-target="#navbar-example3"
+            id="Custo" class=" container-fluid mt-5 lh-base">
+              <div class="row">
+              <div class="col-12"> 
+                <h4 style="color: #4E6930"  class=" container m-3 p-3  fw-semi-bold display-2 fs-2 "> 
+                  <img  src="/sites/img/icon.svg" width="30px">
+                  CUSTO </h4>
+                <p style="text-align: justify;" class="px-4 fs-5 " >O custo compreende um recurso consumido para a obtenção de bens e serviços que são aplicados na produção de outros 
+                  bens ou dos serviços.
+                  <br>
+                </p>
+                <p style="text-align: justify;" class="px-4 fs-5 "> Para Martins (2018), o custo somente é reconhecido como custo no momento da utilização dos fatores de produção 
+                  (bens e serviços), para a fabricação de um produto ou execução de um serviço.
+                   E Padoveze (2006) define custo como desembolsos financeiros, efetuados pela empresa, 
+                   que farão nascer os seus produtos. 
+                  <br><br>
+                  Pode-se concluir que o custo é o consumo de um recurso da entidade para a 
+                  fabricação de seus produtos ou na prestação de serviços. 
+                  Os gastos se tornam custos a partir do momento que são incorporados ao produto ou serviço a ser comercializado.
+
+                </p>
+                <div  style="text-align: justify-all" class="container">
+                  <div class="row justify-content-end">
+                    <div class="col-8 ">
+                      <p style="text-align: justify;" class="px-4 fs-5 "> Gasto é todo o sacrifício financeiro para se obter um bem ou serviço para a entidade. 
+                        Gasto implica em desembolso.
+                        <br><br>  
+                        De acordo com Martins (2018) o gasto é quando existe um sacrifício financeiro por parte das organizações,
+                         assim a compra de um produto ou serviço qualquer, que gere um desembolso financeiro para a entidade, 
+                         isto deve ser representado por entrega ou promessa de entrega de ativos. <br><br> Ainda segundo Martins
+                          (2018, p.25) “O gasto só existe no ato da passagem para a propriedade da empresa do bem ou serviço,
+                           ou seja, quando existe o reconhecimento contábil da dívida assumida ou da redução do ativo dado em pagamento.”<br><br>
+                           Para Megliorini (2012) o gasto corresponde aos compromissos financeiros que a empresa assume
+                            para a aquisição de recursos que serão consumidos no ambiente fabril,
+                             para a revenda de produtos ou poderão ser consumidos na área administrativa ou comercial da empresa. <br> <br>
+                             Diante do exposto, conclui-se que gasto é o sacrifício feito à vista ou a prazo para a obtenção de bens ou serviços, independentemente de sua destinação dentro da empresa.
+                              Ademais, o gasto sempre implica em desembolso. Os gastos podem ser investimentos, custos ou despesas.
+                    </p> <br><br>
+
+                    </div>
+
+                  </div>
+                
+                </div>
+                </div>
+                </div>
+                </section>
+                
+          <section class="px-2" > <div data-bs-smooth-scroll="true" tabindex="0" data-bs-spy="scroll" data-bs-target="#navbar-example3"
+            id="dispesa" class=" container-fluid mt-5 lh-base">
+              <div class="row">
+              <div class="col-12"> <h4 style="color: #4E6930"  class=" container m-3 p-3  fw-semi-bold display-2 fs-2 "> 
+                  <img  src="/sites/img/icon.svg" width="30px">
+                   DISPESA  </h4>
+                <p style="text-align: justify;" class="px-4 fs-5 ">As despesas são recursos consumidos nas áreas administrativas, que direta ou indiretamente,são utilizados para obter receitas.
+                   <br>
+                </p>
+                <p style="text-align: justify;" class="px-4 fs-5 "> De acordo com Martins (2018) as despesas diminuem o Patrimônio Líquido das organizações e suas características representam sacrifícios no processo de obtenção de receitas. 
+                  A definição de despesas  para Bornia (2010, p. 16) segue o conceito de que, “é o valor dos insumos consumidos
+                   com o funcionamento da empresa e não identificados com a fabricação”.
+                  <br><br>
+                  Desta maneira, as despesas não são incluídas como custos dos produtos, mas sim como recursos consumidos fora do processo de produção ou da prestação de serviços para a obtenção de receita.
+                  Todo o material de expediente utilizado no setor administrativo, bem como os salários dos funcionários que trabalham
+                   neste setor 
+                  pode ser considerado como despesas, tanto para empresas comerciais e industriais como para prestadoras de serviços
+             </div>
+
+            </div>
+
+          </div>
+
+ </section>
+
+ <section class="px-2 container-fluid" > <div data-bs-smooth-scroll="true" tabindex="0" data-bs-spy="scroll" data-bs-target="#navbar-example3"
+  id="Desembolso" class=" container-fluid mt-5 lh-base">
+    <div class="row">
+    <div class="col-12"> 
+      <h4 style="color: #4E6930"  class=" container m-3 p-3  fw-semi-bold display-2 fs-2 "> 
+        <img  src="/sites/img/icon.svg" width="30px">
+        DESEMBOLSO</h4>
+      <p style="text-align: justify;" class="px-4 fs-5 ">Desembolso é o evento no qual há saída efetiva de dinheiro do caixa. Segundo Martins (2018) o desembolso é definido como sendo o pagamento resultante da aquisição do bem ou serviço. Segundo Oliveira e Perez Junior (2009), 
+         definem o desembolso como sendo a saída de dinheiro do caixa ou das contas bancárias das empresas. Portanto, o desembolso
+          se caracteriza pela entrega de dinheiro, que pode ocorrer com pagamento antecipado, pagamento à vista ou pagamento a prazo da ocorrência do gasto.
+         <br>
+      </p>
+         </div>
+
+  </div>
+
+</div>
+
+</section>
+
+<section class="px-2 container-fluid" > <div data-bs-smooth-scroll="true" tabindex="0" data-bs-spy="scroll" data-bs-target="#navbar-example3"
+  id="perda" class=" container-fluid mt-5 lh-base">
+    <div class="row">
+    <div class="col-12"> 
+      <h4 style="color: #4E6930"  class=" container m-3 p-3  fw-semi-bold display-2 fs-2 "> 
+        <img  src="/sites/img/icon.svg" width="30px">
+        PERDA</h4>
+      <p style="text-align: justify;" class="px-4 fs-5 ">Perdas são gastos não intencionais que        de fatores externos ou da atividade produtiva da empresa. 
+        Padoveze (2006) caracteriza a perda como eventos econômicos negativos ao patrimônio empresarial,
+        não habituais e eventuais, tais como deterioração anormal de ativos, perdas de créditos excepcionais, 
+        capacidade ociosa anormal etc.”. Dessa forma são considerados perdas, os eventos que ocorrem de forma não intencionais,
+        como os provenientes, 
+        por exemplo, de fenômenos da natureza que provocam deterioração dos estoques<br>
+      </p>
+         </div>
+
+  </div>
+
+</div>
+
+</section>
+
+
+<section class="px-2 container-fluid" > <div data-bs-smooth-scroll="true" tabindex="0" data-bs-spy="scroll" data-bs-target="#navbar-example3"
+  id="disperdicio" class=" container-fluid mt-5 lh-base">
+    <div class="row">
+    <div class="col-12"> 
+      <h4 style="color: #4E6930"  class=" container m-3 p-3  fw-semi-bold display-2 fs-2 "> 
+        <img  src="/sites/img/icon.svg" width="30px">
+        DISPERDÍCIO </h4>
+      <p style="text-align: justify;" class="px-4 fs-5 "> O desperdício pode ser definido como um gasto incorrido no processo produtivo que pode ser eliminado sem prejuízo da qualidade ou quantidade
+         de bens ou serviços. O desperdício pode ser classificado como custos ou despesa, sua identificação e eliminação é um fator determinante 
+         no sucesso ou fracasso de um negócio, pois o desperdício é um sinônimo de prejuízo (OLIVEIRA; PEREZ JR. 2009).<br>
+      </p>
+         </div>
+
+  </div>
+
+</div>
+
+</section>
+
+<section class="px-2 container-fluid" > <div data-bs-smooth-scroll="true" tabindex="0" data-bs-spy="scroll" data-bs-target="#navbar-example3"
+  id="custosdiretos" class=" container-fluid mt-5 lh-base">
+    <div class="row">
+    <div class="col-12"> 
+      <h4 style="color: #4E6930"  class=" container m-3 p-3  fw-semi-bold display-2 fs-2 "> 
+        <img  src="/sites/img/icon.svg" width="30px">
+        CUSTOS DIRETOS </h4>
+      <p style="text-align: justify;" class="px-4 fs-5 " > Podem ser considerados diretos todos os custos relativos aos insumos consumidos na produção de um bem ou serviço, 
+        que são facilmente identificáveis ao objeto de custeio, como por exemplo, a matéria-prima. <br><br>
+        Os custos diretos podem ser apropriados diretamente aos produtos, para isso basta haver uma medida de consumo, 
+        omo por exemplo: quilograma de materiais consumidos, embalagens utilizadas, hora de mão de obra utilizada e também 
+        a quantidade de força consumida. (MARTINS, 2018)<br><br>
+        Segundo Padoveze (2006) os custos diretos são aqueles que podem ser fisicamente identificados para um segmento particular 
+        em consideração. Sendo assim, custos diretos são aqueles que podem ser alocados direta e objetivamente aos produtos e serviços.<br><br>
+        <br>
+      </p>
+         </div>
+
+  </div>
+
+</div>
+
+</section>
+
+<section class="px-2 container-fluid" > <div data-bs-smooth-scroll="true" tabindex="0" data-bs-spy="scroll" data-bs-target="#navbar-example3"
+  id="custosindiretos" class=" container-fluid mt-5 lh-base">
+    <div class="row">
+    <div class="col-12"> 
+      <h4 style="color: #4E6930"  class=" container m-3 p-3  fw-semi-bold display-2 fs-2 "> 
+        <img  src="/sites/img/icon.svg" width="30px">
+        CUSTOS INDIRETOS </h4>
+      <p  style="text-align: justify;" class="px-4 fs-5 " > Indiretos são os custos que não podem ser diretamente apropriados aos produtos ou serviços, necessitando de um critério de rateio
+         para sua mensuração que, em muitas vezes, é considerado arbitrário e subjetivo.
+        <br><br>
+        Martins (2018, p. 49) afirma que os custos indiretos “[...] não oferecem condição de uma medida objetiva e qualquer tentativa 
+        de alocação tem de ser feita de maneira estimada e muitas vezes arbitrária (como aluguel, a supervisão, as chefias, etc)”.<br><br>
+        Os custos indiretos não podem ser facilmente atribuídos aos produtos ou unidades produzidas tendo a necessidade de alocações
+    ou critérios de rateios que podem causar a maior parte das dificuldades de deficiências dos sistemas de custos por 
+         não serem simples e muitas vezes arbitrários (BORNIA, 2010). <br>
+         Sendo assim, os custos indiretos são assim denominados por serem os custos de difícil mensuração em relação ao objeto de custeio. 
+<br><br>
+        <br>
+      </p>
+         </div>
+
+  </div>
+
+</div>
+
+</section>
+
+<section class="px-2 container-fluid" > <div data-bs-smooth-scroll="true" tabindex="0" data-bs-spy="scroll" data-bs-target="#navbar-example3"
+  id="custosfixos" class=" container-fluid mt-5 lh-base">
+    <div class="row">
+    <div class="col-12"> 
+      <h4 style="color: #4E6930"  class=" container m-3 p-3  fw-semi-bold display-2 fs-2 "> 
+        <img  src="/sites/img/icon.svg" width="30px">
+        CUSTOS FIXOS </h4>
+      <p style="text-align: justify;" class="px-4 fs-5 "> Os custos fixos são aqueles que não se alteram em relação à quantidade produzida. Como exemplo pode-se considerar 
+         o salário da supervisão da fábrica e o aluguel. <br>
+        Segundo Padoveze (2006, p. 531), os custos “São fixos porque não são relacionados com o volume de produção ou venda, e, se adotados, não variam com a alteração de volume.”
+ <br> Os custos fixos decorrem da manutenção ou estrutura produtiva da empresa, ou seja, independentemente da quantidade de produtos 
+ a que venha produzir dentro do seu limite de capacidade. Portanto se a empresa tem uma capacidade instalada para produzir 1000 unidades 
+ por mês e em determinado período produzir apenas 800 unidades os custos fixos não serão alterados (MEGLIORINI, 2012).
+ <br><br> Portanto, os custos fixos não sofrem oscilações em relação à produção ou a prestação de serviços, ou seja, mesmo que não haja produção eles existirão. 
+
+        <br>
+      </p>
+         </div>
+
+  </div>
+
+</div>
+
+</section>
+
+<section class="px-2 container-fluid" > <div data-bs-smooth-scroll="true" tabindex="0" data-bs-spy="scroll" data-bs-target="#navbar-example3"
+  id="custossemifixos" class=" container-fluid mt-5 lh-base">
+    <div class="row">
+    <div class="col-12"> 
+      <h4 style="color: #4E6930"  class=" container m-3 p-3  fw-semi-bold display-2 fs-2 "> 
+        <img  src="/sites/img/icon.svg" width="30px">
+CUSTOS SEMIFIXOS </h4>
+      <p  style="text-align: justify;" class="px-4 fs-5 " > Os custos fixos são aqueles que não se alteram em relação à quantidade produzida. Como exemplo pode-se considerar 
+         o salário da supervisão da fábrica e o aluguel. <br>
+        Segundo Padoveze (2006, p. 531), os custos “São fixos porque não são relacionados com o volume de produção ou venda, e, se adotados, não variam com a alteração de volume.”
+ <br> Os custos fixos decorrem da manutenção ou estrutura produtiva da empresa, ou seja, independentemente da quantidade de produtos 
+ a que venha produzir dentro do seu limite de capacidade. Portanto se a empresa tem uma capacidade instalada para produzir 1000 unidades 
+ por mês e em determinado período produzir apenas 800 unidades os custos fixos não serão alterados (MEGLIORINI, 2012).
+ <br><br> Portanto, os custos fixos não sofrem oscilações em relação à produção ou a prestação de serviços, ou seja, mesmo que não haja produção eles existirão. 
+
+        <br>
+      </p>
+         </div>
+
+  </div>
+
+</div>
+
+</section>
+
+<section class="px-2 container-fluid" > <div data-bs-smooth-scroll="true" tabindex="0" data-bs-spy="scroll" data-bs-target="#navbar-example3"
+  id="custovariaveis" class=" container-fluid mt-5 lh-base">
+    <div class="row">
+    <div class="col-12"> 
+      <h4 style="color: #4E6930"  class=" container m-3 p-3  fw-semi-bold display-2 fs-2 "> 
+        <img  src="/sites/img/icon.svg" width="30px">
+        CUSTOS VARIÁVEIS </h4>
+      <p style="text-align: justify;" class="px-4 fs-5 " > Os custos variáveis, por sua vez, são aqueles que se alteram em relação ao volume produzido, ou seja, 
+        quanto maior for a produção maior eles serão como, por exemplo, a matéria-prima. <br>
+        Os custos variáveis estão intimamente ligados à quantidade produzida, ou seja, crescem com o aumento da produção ou
+         atividade da empresa, ao contrário dos fixos, dependem do volume de produção, ou seja, 
+         quando não há produção ele é nulo (BORNIA, 2010). 
+        <br>
+      </p>
+         </div>
+
+  </div>
+
+</div>
+
+</section>
+<section class="px-2 container-fluid" > <div data-bs-smooth-scroll="true" tabindex="0" data-bs-spy="scroll" data-bs-target="#navbar-example3"
+  id="custosemivariaveis" class=" container-fluid mt-5 lh-base">
+    <div class="row">
+    <div class="col-12"> 
+      <h4 style="color: #4E6930"  class=" container m-3 p-3  fw-semi-bold display-2 fs-2 "> 
+        <img  src="/sites/img/icon.svg" width="30px">
+        CUSTOS SEMIVARIÁVEIS  </h4>
+      <p style="text-align: justify;" class="px-4 fs-5 "> Custos semivariáveis são aqueles custos que podem ter uma parcela de custos fixos e outra de custos variáveis, ou seja, tem um comportamento de custo fixo, 
+        mas em determinado momento assume o comportamento de custos variáveis.<br><br> Como exemplos a energia elétrica e a água. 
+        Mesmo que não seja utilizada água deve ser paga a tarifa mínima exigida pela empresa contratada,
+         mas a partir do momento em que o consumo ultrapasse o mínimo contratado ela passa a se caracterizar como variável,
+          pois quanto maior for o consumo, maior será o valor a ser pago (MEGLIORINI, 2012). 
+        <br>
+      </p>
+         </div>
+
+  </div>
+
+</div>
+
+</section>
+
+
+<section class="px-2 container-fluid" > <div data-bs-smooth-scroll="true" tabindex="0" data-bs-spy="scroll" data-bs-target="#navbar-example3"
+  id="dispesasdiretas" class=" container-fluid mt-5 lh-base">
+    <div class="row">
+    <div class="col-12"> 
+      <h4 style="color: #4E6930"  class=" container m-3 p-3  fw-semi-bold display-2 fs-2 "> 
+        <img  src="/sites/img/icon.svg" width="30px">
+        DISPESAS DIRETAS </h4>
+      <p style="text-align: justify;" class="px-4 fs-5 "> Custos semivariáveis são aqueles custos que podem ter uma parcela de custos fixos e outra de custos variáveis, ou seja,
+        tem um comportamento de custo fixo, mas em determinado momento assume o comportamento de custos variáveis. <br><br> 
+        Como exemplos a energia elétrica e a água. Mesmo que não seja utilizada água deve ser paga a tarifa mínima exigida pela empresa contratada, 
+        mas a partir do momento em que o consumo ultrapasse o mínimo contratado ela passa a se caracterizar como variável, pois quanto maior for o consumo, maior será o valor a ser pago (MEGLIORINI, 2012). 
+
+        <br>
+      </p>
+         </div>
+
+  </div>
+
+</div>
+
+</section>
+<section class="px-2 container-fluid" > <div data-bs-smooth-scroll="true" tabindex="0" data-bs-spy="scroll" data-bs-target="#navbar-example3"
+  id="dispesasindiretas" class=" container-fluid mt-5 lh-base">
+    <div class="row">
+    <div class="col-12"> 
+      <h4 style="color: #4E6930"  class=" container m-3 p-3  fw-semi-bold display-2 fs-2 "> 
+        <img  src="/sites/img/icon.svg" width="30px">
+        DISPESAS INDIRETAS </h4>
+      <p style="text-align: justify;" class="px-4 fs-5 "> Assim como os custos indiretos, as despesas indiretas não podem ser facilmente identificadas com o objeto de custeio, 
+        necessitando de um critério de rateio para sua alocação. <br>
+        Segundo Oliveira e Perez Junior (2009, p.73), “São aqueles gastos que não podem ser identificados com precisão 
+        com as receitas geradas. Geralmente são considerados como despesas do período e não são distribuídos por tipo de receita.” 
+        <br><br> 
+        Como exemplo de despesas indiretas, pode-se apresentar os materiais de consumo utilizados pelos funcionários do setor 
+        administrativo como envelopes e cartuchos de tinta para impressora. 
+        Portanto estas despesas não podem ser identificadas diretamente ao objeto de custeio.
+ <br>
+      </p>
+         </div>
+
+  </div>
+
+</div>
+
+</section>
+
+<section class="px-2 container-fluid" > <div data-bs-smooth-scroll="true" tabindex="0" data-bs-spy="scroll" data-bs-target="#navbar-example3"
+  id="dispesasfixas" class=" container-fluid mt-5 lh-base">
+    <div class="row">
+    <div class="col-12"> 
+      <h4 style="color: #4E6930"  class=" container m-3 p-3  fw-semi-bold display-2 fs-2 "> 
+        <img  src="/sites/img/icon.svg" width="30px">
+        DISPESAS FIXAS </h4>
+      <p  style="text-align: justify;" class="px-4 fs-5 "> As despesas fixas são formadas por aqueles recursos consumidos pela entidade, mas que permanece constante 
+        independente do volume de produtos vendidos ou dos serviços prestados. 
+        <br><br> 
+        Segundo Oliveira e Perez Junior (2009, p. 66), despesas fixas
+         “São aquelas despesas que permanecem constantes dentro de determinada faixa de atividade geradora de
+        receitas, independentemente do volume de vendas ou de prestação de serviços.” 
+
+        <br><br> 
+        Portanto, pode-se ter como exemplo de despesas fixas a mão de obra do setor administrativo, 
+        pois não varia de acordo com as vendas ou do volume de serviços prestados.
+
+ <br>
+      </p>
+         </div>
+
+  </div>
+
+</div>
+
+</section>
+
+<section class="px-2 container-fluid" > <div data-bs-smooth-scroll="true" tabindex="0" data-bs-spy="scroll" data-bs-target="#navbar-example3"
+  id="dispesasvariaveis" class=" container-fluid mt-5 lh-base">
+    <div class="row">
+    <div class="col-12"> 
+      <h4 style="color: #4E6930"  class=" container m-3 p-3  fw-semi-bold display-2 fs-2 "> 
+        <img  src="/sites/img/icon.svg" width="30px">
+        DISPESAS VARIÁVEIS </h4>
+      <p style="text-align: justify;" class="px-4 fs-5 "> Assim como os custos variáveis se alteram de acordo com a produção, as despesas variáveis se alteram de acordo com o volume de vendas.  
+        <br><br> 
+        Para Oliveira e Perez Junior (2009, p. 70), “Essas despesas podem ser identificadas com as receitas geradas e facilmente quantificadas.” Podemos citar como despesas variáveis a comissão de venda, assim, 
+        quanto maiores forem às vendas, maior será o montante a ser pago para os vendedores. 
+ <br>
+      </p>
+         </div>
+
+  </div>
+
+</div>
+
+</section>
+
+<section class="px-2 container-fluid" > <div data-bs-smooth-scroll="true" tabindex="0" data-bs-spy="scroll" data-bs-target="#navbar-example3"
+  id="materiaisdiretos" class=" container-fluid mt-5 lh-base">
+    <div class="row">
+    <div class="col-12"> 
+      <h4 style="color: #4E6930"  class=" container m-3 p-3  fw-semi-bold display-2 fs-2 "> 
+        <img  src="/sites/img/icon.svg" width="30px">
+        MATERIAIS DIRETOS </h4>
+      <p style="text-align: justify;" class="px-4 fs-5 "> Os materiais são os componentes, que podem ser identificados como parte integrante do produto final, 
+        como a matéria-prima, os materiais secundários e as embalagens, ao passo que outros são consumidos no
+         processo de fabricação porém não integram o produto final denominados de materiais auxiliares,
+         como óleos lubrificantes para as máquinas, lixas, materiais de limpeza, etc. (RIBEIRO, 2013). 
+         <br><br>
+
+         Os materiais diretos como a matéria-prima, os componentes adquiridos prontos as embalagens e os 
+         outros materiais diretos utilizados no processo de produção são apropriados aos produtos ou 
+         serviços por seu valor histórico de aquisição.  Esses materiais são adquiridos pela empresa e 
+         são incorporados aos produtos pelo seu valor histórico, considerando os gastos incorridos não somente 
+         na aquisição, como também transporte, seguro, armazenagem e outros custos necessários para que o material 
+         esteja em condições de ser utilizado (MARTINS, 2018). <br><br>
+
+         Conforme a Norma Brasileira de Contabilidade NBC TG 16 - Estoques, o
+        custo da aquisição dos estoques compreende: o preço de compra, os impostos de 
+        importação e outros tributos (exceto os recuperáveis junto ao Fisco), assim como os custos de 
+        transporte, seguro, manuseio e outros diretamente atribuíveis à aquisição de produtos acabados, 
+        materiais e serviços. <br><br>
+
+<br><br>
+
+
+
+
+ <br>
+      </p>
+         </div>
+
+  </div>
+
+</div>
+
+</section>
+<section class="px-2 container-fluid" > <div data-bs-smooth-scroll="true" tabindex="0" data-bs-spy="scroll" data-bs-target="#navbar-example3"
+  id="item-1-2" class=" container-fluid mt-5 lh-base">
+    <div class="row">
+    <div class="col-12"> 
+      <h4 style="color: #4E6930"  class=" container m-3 p-3  fw-semi-bold display-2 fs-2 "> 
+        <img  src="/sites/img/icon.svg" width="30px">
+        MATERIAIS DIRETOS </h4>
+      <p style="text-align: justify;" class="px-4 fs-5 "> Os materiais são os componentes, que podem ser identificados como parte integrante do produto final, 
+        como a matéria-prima, os materiais secundários e as embalagens, ao passo que outros são consumidos no
+         processo de fabricação porém não integram o produto final denominados de materiais auxiliares,
+         como óleos lubrificantes para as máquinas, lixas, materiais de limpeza, etc. (RIBEIRO, 2013). 
+         <br><br>
+
+         Os materiais diretos como a matéria-prima, os componentes adquiridos prontos as embalagens e os 
+         outros materiais diretos utilizados no processo de produção são apropriados aos produtos ou 
+         serviços por seu valor histórico de aquisição.  Esses materiais são adquiridos pela empresa e 
+         são incorporados aos produtos pelo seu valor histórico, considerando os gastos incorridos não somente 
+         na aquisição, como também transporte, seguro, armazenagem e outros custos necessários para que o material 
+         esteja em condições de ser utilizado (MARTINS, 2018). <br><br>
+
+        Conforme a Norma Brasileira de Contabilidade NBC TG 16 - Estoques, o
+        custo da aquisição dos estoques compreende: o preço de compra, os impostos de 
+        importação e outros tributos (exceto os recuperáveis junto ao Fisco), assim como os custos de 
+        transporte, seguro, manuseio e outros diretamente atribuíveis à aquisição de produtos acabados, 
+        materiais e serviços. 
+        Podemos citar como exemplos de materiais diretos segundo Crepaldi, A. e Crepaldi, S. (2017): 
+
+
+
+<br><br>
+
+
+
+
+ <br>
+      </p>
+         </div>
+
+  </div>
+
+</div>
+
+<div  style="text-align: justify-all" class="container fs-5">
+  <div class="row justify-content-end">
+    <div class="col-8 ">
+      <ul class="list-group ms-5">
+        <a> <img src="/sites/img/iconecor.svg" width="20px" >
+        <strong> Matéria-prima </strong> é o principal material que entra na composição do produto final.
+         Ela sofre transformação no processo de fabricação.
+      </a> <br>
+        </ul>
+        <ul class="list-group list-group-flush ms-5">
+          <a><img src="/sites/img/iconecor.svg" width="20px" >
+         <strong>  Material secundário </strong> é o material direto, de caráter secundário. 
+          Não é o componente básico na composição do produto, mas é perfeitamente identificável ao produto.
+        </a> <br>
+          </ul>
+          <ul class="list-group list-group-flush ms-5">
+            <a><img src="/sites/img/iconecor.svg" width="20px" >
+            <strong>   Embalagens são materiais </strong>utilizados para embalagem do produto ou seu acondicionamento para remessa. 
+            São materiais diretos devido à fácil identificação com o produto. </a> <br>
+            </ul>
+            
+    </div>
+
+  </div>
+
+</div>
+
+</section>
+
+<section>
+  <div   data-bs-smooth-scroll="true" tabindex="0" data-bs-spy="scroll" data-bs-target="#navbar-example3"
+  id="intro-custeio"class="container-fluid text-center">
+    <div class="row">
+      <div class="col">
+        <p style="color: #4E6930" class="  container text-decoration-underline   my-5 fw-semibold fs-3 "  >
+          2 - CUSTEIO POR ABSORÇÃO  </p>
+
+      </div>
+
+    </div>
+</div>
+
+</section>
+
+
+<section class="px-2 container-fluid" > 
+  <div data-bs-smooth-scroll="true" tabindex="0" data-bs-spy="scroll" data-bs-target="#navbar-example3"
+  id="#" class=" container-fluid mt-2 lh-base">
+    <div class="row">
+    <div class="col-12"> 
+        <p style="text-align: justify;" class="px-4 fs-5 "> Para que a classificação dos custos e despesas sejam feitos de maneira correta é de suma 
+          importância o conhecimento do objeto de custeio pelo profissional de custos, para não haver
+           distorções nos resultados
+ 
+         <br><br>
+
+        O custeio por absorção é um método que aloca aos produtos todos os custos de produção, 
+        sejam diretos ou indiretos, fixos ou variáveis. Segundo Martins (2018, p. 37), o custeio
+        por absorção “Consiste na apropriação de todos os custos de produção aos bens elaborados, 
+        e só os de produção; todos os gastos relativos ao esforço de produção são distribuídos para 
+        todos os produtos ou serviços feitos”.
+ <br><br>
+
+        Conforme a Norma Brasileira de Contabilidade NBC TG 16 - Estoques, o
+        custo da aquisição dos estoques compreende: o preço de compra, os impostos de 
+        importação e outros tributos (exceto os recuperáveis junto ao Fisco), assim como os custos de 
+        transporte, seguro, manuseio e outros diretamente atribuíveis à aquisição de produtos acabados, 
+        materiais e serviços. 
+        Podemos citar como exemplos de materiais diretos segundo Crepaldi, A. e Crepaldi, S. (2017): 
+        </div>
+
+  </div>
+
+
+
+
+<div data-bs-smooth-scroll="true" tabindex="0" data-bs-spy="scroll" data-bs-target="#navbar-example3"
+id="intro-custeio-1" class="container-fluid p-4">
+<div class="row">
+  <div class="col-12">
+    
+    <div class="text-center" >
+      <img src="/sites/img/figura - 1 (1).svg" class="rounded  img-fluid mt-5" alt="...">
+    </div>
+    
+
+  </div>
+</div>
+</section>
+
+</div>
+<section>
+<div  data-bs-smooth-scroll="true" tabindex="0" data-bs-spy="scroll" data-bs-target="#navbar-example3"
+id="intro-custeio-2" class="container-fluid p-4">
+  <div class="row">
+    <div class="col-12">
+      
+      <div class="text-center">
+        <img src="/site/sites/img/figura - 2Figura 1 - Custeio por absorção de empresas prestadoras de serviços.svg" class="rounded  img-fluid mt-5" alt="...">
+      </div>
+      
+  
+    </div>
+  </div>
+
+</section>
+
+  <section class="px-2   container my-5  fs-4" > 
+    <div data-bs-smooth-scroll="true" tabindex="0" data-bs-spy="scroll" data-bs-target="#navbar-example3"
+    id="#" class=" container-fluid mt-2 lh-base">
+      <div class="row">
+      <div class="col-12"> 
+   
+      <p> O Custeio por Absorção é o método derivado da aplicação dos princípios de contabilidade e é, no Brasil, adotado pela legislação comercial e pela legislação fiscal, é uma metodologia decorrente da aplicação dos princípios. </p> 
+      <p> É um método válido para a apresentação de demonstrações financeiras e para o pagamento do Imposto de Renda (CREPALDI; CREPALDI, 2017). </p>
+      <p> Para melhor entendimento do processo de classificação dos gastos vamos supor que as Indústrias Ltda. tenha em determinado período incorridos nos seguintes gastos: </p>
+              
+  </div> 
+  
+  </div>
+
+</section>
+  </div>
+   <!– Quadro 01 – Relação de Gastos das Indústrias Ltda–> 
+   <section>
+
+
+    <div   data-bs-smooth-scroll="true" tabindex="0" data-bs-spy="scroll" data-bs-target="#navbar-example3"
+    id="quadro-1"class="container-fluid text-center">
+      <div class="row">
+        <div class="col">
+          <p class="container my-5  fs-4 "  >
+            <strong> Quadro 01</strong> – Relação de Gastos das Indústrias Ltda  </p>
+  
+        </div>
+  
+      </div>
+  </div>
+     
+<div class="container">
+  <div class="row">
+    <table class="table table-hover  table-striped-columns table-success">
+      <thead>
+        <tr>
+        <th scope="col">GASTOS</th>
+        <th scope="col">Gastos	Valor em R$</th>
+        </tr>
+        
+      </thead>
+      <tbody>
+        <tr>
+          <td scope="row">Comissão de vendedores	</th>
+          <td><R1>3.000,00</R1></td>
+        </tr>
+        <tr>
+          <td scope="row">Matéria-prima consumida	</th>
+          <td><R1>50.000,00</R1></td>
+        </tr>
+        <tr>
+          <td scope="row">Salários de fábrica</th>
+          <td><R1>60.000,00</R1></td>
+        </tr>
+        <tr>
+          <td scope="row">Honorários da diretoria</th>
+          <td><R1>15.000,00</R1></td>
+        </tr>
+        <tr>
+          <td scope="row">Salários da administração</th>
+          <td><R1>35.000,00</R1></td>
+        </tr><tr>
+          <td scope="row">Seguros de fábrica</th>
+          <td><R1>7.000,00</R1></td>
+        </tr>
+        <tr>
+          <td scope="row">Manutenção</th>
+          <td><R1>1.000,00</R1></td>
+        </tr>
+        <tr>
+          <td scope="row">Material de expediente</th>
+          <td><R1>2.300,00</R1></td>
+        </tr>
+        <tr>
+          <td scope="row"> Depreciação de máquinas da fabrica	</th>
+          <td><R1>10.000,00</R1></td>
+        </tr>
+        <tr>
+          <td scope="row">Estoques de matéria-prima para a produção (consumo em 6 meses)</th>
+          <td><R1>20.000,00</R1></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+<div class="container-fluid text-start">
+  <div class="row">
+    <div class="col">
+      <p class="container my-5  fs-4 "  >
+        <strong> Fonte:</strong> Elaborado pelo autor (2021).</p>
+
+    </div>
+  </section>
+  <!– Quadro 01 – Relação de Gastos das Indústrias Ltda–>
+
+  <!– Quadro 02 – Relação de Custos das Indústrias Ltda–> 
+  <section>
+
+    <div  data-bs-smooth-scroll="true" tabindex="0" data-bs-spy="scroll" data-bs-target="#navbar-example3"
+    id="quadro-2" class="container-fluid text-center">
+      <div class="row">
+        <div class="col">
+          <p class="container my-5  fs-4 "  >
+            <strong> Quadro 02</strong> – Relação de Custos das Indústrias Ltda  </p>
+  
+        </div>
+  
+      </div>
+  </div>
+    
+
+<div class="container">
+ <div class="row">
+   <table class="table table-hover  table-striped-columns table-success">
+     <thead>
+       <tr>
+       <th scope="col">Custos</th>
+       <th scope="col">Valor em R$</th>
+       </tr>
+       
+     </thead>
+     <tbody>
+       <tr>
+         <td scope="row">Matéria-prima consumida	</th>
+         <td><R1>50.000,00</R1></td>
+       </tr>
+       <tr>
+         <td scope="row">Salários de fábrica		</th>
+         <td><R1>60.000,00</R1></td>
+       </tr>
+       <tr>
+         <td scope="row">Seguros de fábrica</th>
+         <td><R1>	10.000,00</R1></td>
+       </tr>
+       
+     </tbody>
+   </table>
+ </div>
+
+
+</div>
+
+<div class="container-fluid text-start">
+ <div class="row">
+   <div class="col">
+     <p class="container my-5  fs-4 "  >
+       <strong> Fonte:</strong> Elaborado pelo autor (2021).</p>
+
+   </div>
+
+   <div class="container-fluid text-start">
+    <div class="row">
+      <div class="col">
+        <p class="container fs-4">
+          No quadro 04 restou o investimento que a empresa fez em estoques para serem utilizados em seis meses, e, portanto não serão incluídos como custos ou despesas.
+          Serão transformados em custos quando foram efetivamente utilizados no processo de produção.</p>
+   
+      </div>
+ </section>
+ <!– Quadro 01 – Relação de Gastos das Indústrias Ltda–>
+<section class="container   data-bs-smooth-scroll= "true tabindex="0" data-bs-spy="scroll" data-bs-target="#navbar-example3"
+id="videoaula" class=" container-fluid mt-2 lh-base"> 
+  <p class="container my-2 fs-4">
+    <button type="button" class="btn btn-success btn-lg" disabled> VIDEO AULA </button>
+    <div class="ratio ratio-16x9">
+    
+<div><iframe src="https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fplayer.vimeo.com%2Fvideo%2F540299694%3Fh%3Dddede648af%26app_id%3D122963&dntp=1&display_name=Vimeo&url=https%3A%2F%2Fvimeo.com%2F726187091%2Fdd7f78b4bf&image=https%3A%2F%2Fi.vimeocdn.com%2Ffilter%2Foverlay%3Fsrc0%3Dhttps%253A%252F%252Fi.vimeocdn.com%252Fvideo%252F1461780706-69580eef10b591a7d11ed0c33a9b5b941dda67e8969692bf35064ded3c586913-d_1280x720%26src1%3Dhttps%253A%252F%252Ff.vimeocdn.com%252Fimages_v6%252Fshare%252Fplay_icon_overlay.png&key=96f1f04c5f4143bcb0f2e68c87d65feb&type=text%2Fhtml&schema=vimeo" style="position:absolute;top:0;left:0;width:99%;height:99%;" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>  
+</div>
+
+</section>
+<section> 
+  <div style="background-image:  linear-gradient(267.92deg, rgba(78, 105, 48, 0.74) 0%, rgba(54, 58, 9, 0.9) 51.26%, rgba(217, 149, 40, 0.73) 101.07%),  url(/sites/img/banner.svg);" class="container-fluid mb-5 mt-5 " >
+
+    <div class="row">
+  
+      <div class="col-2">
+        <img src="/sites/img/logounicv.svg"  width="150px" class="img-fluid float-lg-start"  >
+  
+      </div>
+      <div class="col-10">
+        <div class="container  data-bs-smooth-scroll="true tabindex="0" data-bs-spy="scroll" data-bs-target="#navbar-example3"
+        id="consideracoes-finais" class=" container-fluid mt-2 lh-base">
+  
+        <p style="padding:22px 0; " class="text-center text-light h2 align-middle display-3 ">
+CONSIDERAÇÕES FINAIS  </p>
+      </div>
+ 
+      </div>
+  
+  
+    </div> 
+  </div>
+  
+</div>
+
+</section>
+
+
+<section class="container-fluid my-5  fs-6" > 
+  <div data-bs-smooth-scroll="true" tabindex="0" data-bs-spy="scroll" data-bs-target="#navbar-example3"
+  id="#" class=" container-fluid mt-2 lh-base">
+    <div class="row">
+    <div class="col-12"> 
+ 
+    <p> O Custeio por Absorção é o método derivado da aplicação dos princípios de contabilidade e é, no Brasil, adotado pela legislação comercial e pela legislação fiscal, é uma metodologia decorrente da aplicação dos princípios. </p> 
+    <p> É um método válido para a apresentação de demonstrações financeiras e para o pagamento do Imposto de Renda (CREPALDI; CREPALDI, 2017). </p>
+    <p> Para melhor entendimento do processo de classificação dos gastos vamos supor que as Indústrias Ltda. tenha em determinado período incorridos nos seguintes gastos: </p>
+            
+</div> 
+
+</div>
+</section>
+<div  class="container"   data-bs-smooth-scroll="true" tabindex="0" data-bs-spy="scroll" data-bs-target="#navbar-example3"
+    id="dicas-conteudos"class="container text-center">
+      <div class="row">
+        <div class="col">
+          <p style="color: #4E6930" class="  container text-decoration-underline   my-5 fw-semibold fs-3 "  >
+            DICAS DE CONTEUDO  </p>
+  
+        </div>
+  
+      </div>
+  </div>
+  <div class="col-md-6 container">
+    
+    <div class="row g-0 overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+      <div class="col p-4 d-flex flex-column position-static">
+        <strong class="d-inline-block mb-2 text-success">Contabilidade e Análise de custos</strong>
+        <h3 class="mb-0">Autor: Francisco Lorentz.</h3>
+        <div class="mb-1 ">Editora: FREITAS BASTOS. 
+        </div>
+        <p class="card-text mb-auto">Sinopse: O livro trata assuntos relacionados à contabilidade de custos desde o surgimento da própria contabilidade de custos e faz uma incursão sobre o seu  
+          desenvolvimento e também uma abordagem prática e objetivos</p>
+      </div>
+      <div class="col-auto d-none d-lg-block">
+        <img class="bd-placeholder-img" width="250" height="300"  src="/sites/img/contabilidade-e-analise-de-custos 1.svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect>
+      </div>
+    </div>
+    
+  </div>
+
+  <div class="col-md-6 mt-5 mb-2 container" >
+    <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+      <div class="col p-4 d-flex flex-column position-static">
+        <strong class="d-inline-block mb-2 text-success">Contabilidade e Análise de custos</strong>
+        <h3 class="mb-0">Autor: Francisco Lorentz.</h3>
+        <div class="mb-1 text-muted">Editora: FREITAS BASTOS. 
+        </div>
+        <p class="card-text mb-auto">Sinopse: O livro trata assuntos relacionados à contabilidade de custos desde o surgimento da própria contabilidade de custos e faz uma incursão sobre o seu  
+          desenvolvimento e também uma abordagem prática e objetivos</p>
+      </div>
+      <div class="col-auto d-none d-lg-block">
+        <img class="bd-placeholder-img" width="250" height="300"  src="/sites/img/contabilidade-e-analise-de-custos 1.svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect>
+      </div>
+    </div>
+  </div>
+
+  <section>
+    <div   data-bs-smooth-scroll="true" tabindex="0" data-bs-spy="scroll" data-bs-target="#navbar-example3"
+    id="referencias"class="container text-start">
+      <div class="row">
+        <div class="col">
+          <p style="color: #4E6930" class="  container text-decoration-underline   my-5 fw-semibold fs-3 "  >
+            REFERÊNCIAS </p>
+            <p> BORNIA, Antonio Cezar. Análise gerencial de custos: aplicação em empresas modernas. 3 ed. São Paulo: Atlas, 2010. </p> 
+            <p> BRASIL. NBC TG 16 – Estoques. Disponível em: http://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=57 Acesso em  18/09/2021. Acesso em: 22 nov. 2021.</p>
+            <p> CREPALDI, Aparecido S., CREPALDI, Simões. Contabilidade de Custos, 6ª edição. Atlas, 2017.</p>
+            <p>MARTINS, Eliseu. Contabilidade de custos. 11 ed. São Paulo: Atlas, 2018.</p>
+            <p>MEGLIORINI, Evandir. Custos: análise e gestão. 3 ed. São Paulo: Pearson Prentice Hall, 2012.</p>
+            <p>PADOVEZE, Clóvis Luís. Contabilidade Gerencial: um enfoque em sistema de informação contábil. 4. ed. São Paulo: Atlas, 2006.</p>
+            <p>OLIVEIRA, Luís Martins., PEREZ JUNIOR, José Hernandez. Contabilidade de custos para não contadores, 4. ed. São Paulo: Atlas, 2009.</p>
+            <P>RIBEIRO, Osni Moura. Contabilidade de Custos. 3.ed. São Paulo: Atlas, 2013. </P>
+          </div>
+        </div>
+  </div>
+  </section>
+  <script src="https://s3.amazonaws.com/plugins.b42.com.br/accessibility/accessibility.min.js"></script>
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+</body>
+
+</html>
