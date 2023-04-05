@@ -1,2 +1,2 @@
 # leiaute-disciplinas
-https://modelo-disciplina-cassiano-xavier.vanessaparteck.com.br/ 
+Faça o download  do projeto para visualizar
